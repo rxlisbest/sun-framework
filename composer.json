@@ -1,0 +1,19 @@
+{
+    "name": "rxlisbest/sun-framework",
+    "description": "An open source php-framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "roy",
+            "email": "rxlisbest@163.com"
+        }
+    ],
+    "require": {
+        "rxlisbest/sun": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+        }
+    }
+}
