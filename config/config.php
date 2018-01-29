@@ -8,4 +8,5 @@
 
 return [
     'base_path' => dirname(__DIR__),
+    'path_info' => true,
 ];

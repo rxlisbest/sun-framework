@@ -6,8 +6,8 @@
  * Time: 下午12:21
  */
 namespace app\controllers;
-
-class IndexController
+use Rxlisbest\Sun\Core\Controller;
+class IndexController extends Controller
 {
     public function index()
     {
