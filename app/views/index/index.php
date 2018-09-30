@@ -1,7 +1,5 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: ruixinglong
- * Date: 2018/1/17
- * Time: 下午12:22
- */
+<html>
+    <body>
+        <h1>Hello<?=$t?></h1>
+    </body>
+</html>
