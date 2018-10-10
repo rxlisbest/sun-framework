@@ -20,7 +20,6 @@ class IndexTest extends TestCase
 
     public function testSelect()
     {
-        Test::ins()->select();
         $this->assertEquals(
             '1',
             '1'
