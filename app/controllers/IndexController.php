@@ -16,9 +16,6 @@ class IndexController extends Controller
 {
     public function index()
     {
-        var_dump(Test::ins()->select());
-        var_dump(Sun::$app->getRoute()->controller());
-        var_dump(Sun::$app->getRoute()->action());
-        $this->fetch('', ['t' => '123']);
+        $this->fetch('', ['name' => 'sun-framework']);
     }
 }
