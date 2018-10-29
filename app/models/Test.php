@@ -7,7 +7,7 @@
  */
 namespace app\models;
 
-use Rxlisbest\Sun\Component\Model;
+use Rxlisbest\Sun\Web\Component\Model;
 
 class Test extends Model
 {

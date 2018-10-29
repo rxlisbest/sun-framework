@@ -8,7 +8,7 @@
 
 namespace app\controllers;
 
-use Rxlisbest\Sun\Component\Controller;
+use Rxlisbest\Sun\Web\Component\Controller;
 use app\models\Test;
 use Rxlisbest\Sun\Sun;
 
