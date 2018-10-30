@@ -6,7 +6,7 @@
  * Time: 下午12:21
  */
 
-namespace app\controllers;
+namespace App\Controllers;
 
 use Rxlisbest\Sun\Web\Component\Controller;
 use app\models\Test;
