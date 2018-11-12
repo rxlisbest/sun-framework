@@ -9,8 +9,6 @@
 namespace App\Controllers;
 
 use Rxlisbest\Sun\Web\Component\Controller;
-use app\models\Test;
-use Rxlisbest\Sun\Sun;
 
 class IndexController extends Controller
 {

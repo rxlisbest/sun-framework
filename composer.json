@@ -9,6 +9,12 @@
             "email": "rxlisbest@163.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "github",
+            "url": "https://github.com/rxlisbest/sun.git"
+        }
+    ],
     "require": {
         "rxlisbest/sun": "dev-master"
     },
