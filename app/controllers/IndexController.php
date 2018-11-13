@@ -6,7 +6,7 @@
  * Time: 下午12:21
  */
 
-namespace App\Controllers;
+namespace app\controllers;
 
 use Rxlisbest\Sun\Web\Component\Controller;
 
