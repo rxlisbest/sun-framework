@@ -3,7 +3,7 @@ return [
     'base_path' => dirname(__DIR__),
     'path_info' => true,
     'database' => [
-        'dsn' => 'mysql:host=localhost;dbname=sun_test',
+        'dsn' => 'mysql:host=localhost;',
         'username' => 'root',
         'password' => 'root',
         'charset' => 'utf8',

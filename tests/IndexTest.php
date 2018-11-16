@@ -5,6 +5,7 @@
  * Date: 2018/10/8
  * Time: 10:53 AM
  */
+namespace Tests;
 
 use PHPUnit\Framework\TestCase;
 
