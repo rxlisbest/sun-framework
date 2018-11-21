@@ -45,9 +45,20 @@ class DbTest extends TestCase
         );
     }
 
+    /**
+     * create table
+     * @name: testCreateTable
+     * @return void
+     * @author: RuiXinglong <ruixl@soocedu.com>
+     * @time: 2017-06-19 10:00:00
+     */
     public function testCreateTable()
     {
-
+        $result = $this->db->create('sun_test');
+        $this->assertEquals(
+            $result,
+            true
+        );
     }
 
     public function testInstance()
