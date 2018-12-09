@@ -54,7 +54,7 @@ class DbTest extends TestCase
      */
     public function testCreateTable()
     {
-        $result = $this->db->create('sun_test');
+        $result = $this->db->createTable('sun_test');
         $this->assertEquals(
             $result,
             true
