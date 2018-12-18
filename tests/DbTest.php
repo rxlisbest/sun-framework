@@ -10,6 +10,7 @@ namespace Tests;
 
 use PHPUnit\Framework\TestCase;
 use Rxlisbest\Sun\Sun;
+use Rxlisbest\Sun\Web\Component\DbData;
 
 class DbTest extends TestCase
 {
@@ -54,7 +55,13 @@ class DbTest extends TestCase
      */
     public function testCreateTable()
     {
-        $result = $this->db->createTable('sun_test');
+        $result = $this->db->createTable('sun_test',
+            [
+                DbData::field('id')->autoIncrement()->build(),
+                DbData::field('name')->string()->comment('name')->build(),
+                DbData::primaryKey('id')->build()
+            ]
+        );
         $this->assertEquals(
             $result,
             true
